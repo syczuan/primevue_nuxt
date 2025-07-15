@@ -4,7 +4,7 @@
       <template #container="data">
         <div style="gap: 20px; display: flex; flex-direction: column">
           <div>{{ data }}</div>
-          <div>{{ data.pageLinks[0] }}</div>
+          <div>{{ data.pageLinks?.[0] }}</div>
         </div>
       </template>
     </Paginator>
